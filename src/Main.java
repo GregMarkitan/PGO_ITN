@@ -8,12 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-          // Placeholder boolean variable
-        boolean alwaysTrue = true;
+          // Placeholder double variable
+	  // TODO: replace with real logic
+	double version = 0.1;
 
-        if (alwaysTrue) {
-            System.out.println("Hello, world!");
-        }
-
+	if (version < 1.0) {
+	    System.out.println("This is a test for a new feature branch!");
+	}
     }
 }
