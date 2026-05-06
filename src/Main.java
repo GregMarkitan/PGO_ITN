@@ -8,7 +8,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("Hello, world!");
+          // Placeholder boolean variable
+        boolean alwaysTrue = true;
+
+        if (alwaysTrue) {
+            System.out.println("Hello, world!");
+        }
 
     }
 }
